@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplex Solar - Powering India's Future</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #1a5f7a;
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-evenly;
+            margin: 0;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            background: linear-gradient(to right, #2193b0, #6dd5ed);
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+            margin-top: 80px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .btn {
+            display: inline-block;
+            background-color: #1a5f7a;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #1a5f7a;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        form {
+            max-width: 600px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        form label {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        form input, form select, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form button {
+            margin-top: 15px;
+            padding: 10px;
+            width: 100%;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #218838;
+        }
+        @media (max-width: 768px) {
+            .hero {
+                padding: 2rem 1rem;
+                margin-top: 100px;
+            }
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: space-between;
+                padding: 0 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#on-grid-solar">On-Grid Solar</a></li>
+                <li><a href="#subsidy">Subsidy</a></li>
+                <li><a href="#contact">Get Quotation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Simplex Solar</h1>
+            <p>Powering India's Future with Clean, Affordable Solar Energy</p>
+            <a href="#contact" class="btn">Get Started</a>
+        </section>
+
+        <section id="services" class="container">
+            <h2>Our Services</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Solar Panel Installation</h3>
+                    <p>High-efficiency solar panels tailored to Indian homes and businesses.</p>
+                    <img src="house-installing-solar.jpg" alt="Solar Panel Installation">
+                </div>
+                <div class="card">
+                    <h3>Battery Storage</h3>
+                    <p>Reliable power storage solutions for uninterrupted energy supply.</p>
+                    <img src="Battery.jpg" alt="Battery Storage System">
+                </div>
+                <div class="card">
+                    <h3>Energy Management</h3>
+                    <p>Smart systems to optimize your energy consumption and reduce bills.</p>
+                    <img src="Energy Management-2.svg" alt="Energy Management System">
+                </div>
+            </div>
+        </section>
+
+        <section id="on-grid-solar" class="container">
+            <h2>On-Grid Solar Solutions</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Residential On-Grid Solar</h3>
+                    <ul>
+                        <li>Reduce your electricity bills significantly.</li>
+                        <li>Sell excess power back to the grid.</li>
+                        <li>Increase your property value.</li>
+                        <li>Benefit from government incentives.</li>
+                    </ul>
+                    <img src="house-solar-cell-system-png.png" alt="Residential Solar Installation">
+                </div>
+                <div class="card">
+                    <h3>Commercial On-Grid Solar</h3>
+                    <ul>
+                        <li>Lower operational costs for your business.</li>
+                        <li>Enhance your corporate social responsibility.</li>
+                        <li>Stable energy prices for long-term planning.</li>
+                        <li>Quick return on investment.</li>
+                    </ul>
+                    <img src="factory-vector.jpg" alt="Commercial Solar Installation">
+                </div>
+            </div>
+        </section>
+
+<!--------------------------------------------------------------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------------------------------------------------------------->
+
+        <section id="subsidy" class="container">
+            <h2>Government Subsidy for Solar Installation</h2>
+            <p>The Indian government offers attractive subsidies through the PM-SURYAGHAR scheme to promote solar adoption:</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>Residential Subsidy</h3>
+                    <ul>
+                        <li>₹30,000 subsidy for 1kW capacity solar systems.</li>
+                        <li>₹60,000 subsidy for 2kW capacity solar systems.</li>
+                        <li>₹78,000 subsidy for systems between 3kW to 10kW.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Additional Benefits</h3>
+                    <ul>
+                        <li>No upper cap on system capacity for subsidy.</li>
+                        <li>Concessional loans available through nationalized banks.</li>
+                        <li>Net metering facility for grid-connected systems.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>On-Grid Solar System Quotation Request</h2>
+            <form action="https://formspree.io/f/xwpkrarp" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" pattern="\d{10}" maxlength="10" title="Enter a 10-digit phone number" required>
+
+                <label for="system_type">Select System Type:</label>
+                <select id="system_type" name="system_type" required>
+                    <option value="">-- Select --</option>
+                    <option value="residential">Residential</option>
+                    <option value="commercial">Commercial</option>
+                </select>
+
+                <label for="capacity">Select Solar Capacity (in kW):</label>
+                <select id="capacity" name="capacity" required>
+                    <option value="">-- Select Capacity --</option>
+                    <option value="1">1 kW</option>
+                    <option value="2">2 kW</option>
+                    <option value="3">3 kW</option>
+                    <option value="5">5 kW</option>
+                    <option value="5">6 kW</option>
+                    <option value="10">10 kW</option>
+                    <option value="20">20 kW</option>
+                </select>
+
+                <label for="details">Additional Details:</label>
+                <textarea id="details" name="details" rows="4"></textarea>
+
+                <button type="submit">Request Quotation</button>
+				<h3> Or Mail Us : info@simplexsolar.in</h3>
+            </form>
+			
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Simplex Solar. All rights reserved.</p>
+        <p>Contact: +91 (555) 123-4567 | info@simplexsolar.in</p>
+        <p>Simplex Solar and Global Impact Power Solutions is a trade name of Simplex Multiresources Pvt. Ltd.</p>
+        <p><a href="privacy-policy.html">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
